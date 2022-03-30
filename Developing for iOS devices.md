@@ -25,4 +25,4 @@
  ## Testing the installation on iOS
 * react-native init MyProjectName
 * cd MyProjectName
-* react-native run-ios
+* npx react-native run-ios
