@@ -7,9 +7,9 @@
 
 ## Follow these steps:
 * Install Homebrew, go to http://brew.sh
-* Node & Watchman
-  * brew install node
-  * brew install watchman
+* Node & Watchman 
+<pre>brew install node</pre>
+<pre>brew install watchman</pre>
 * Xcode, go to Mac App Store
 * Command Line Tools
   * Open Xcode, then choose "Preferences..." from the Xcode menu.
@@ -18,11 +18,11 @@
   * open Xcode > Preferences... and select the Components tab. 
   * Select a simulator with the corresponding version of iOS you wish to use.
 * CocoaPods
-  * sudo gem install cocoapods
+<pre>sudo gem install cocoapods</pre>
 * react-native-cli
-  * sudo npm install –g react-native-cli
+<pre>sudo npm install –g react-native-cli</pre>
 
  ## Testing the installation on iOS
-* react-native init MyProjectName
-* cd MyProjectName
-* npx react-native run-ios
+<pre>react-native init MyProjectName</pre>
+<pre>cd MyProjectName</pre>
+<pre>npx react-native run-ios</pre>
