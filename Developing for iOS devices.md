@@ -6,19 +6,22 @@
 * React Native command-line interface
 
 ## Follow these steps:
-* Install Xcode, which is available through the App Store.
-* The React Native docs and I recommend installing Node and Watchman via
-Homebrew. If you don’t already have Homebrew installed, go to http://brew.sh
-and install it on your machine.
-* Open a command line, and install Node and Watchman using Homebrew:
+* Install Homebrew, go to http://brew.sh
+* Node & Watchman
   * brew install node
   * brew install watchman
-* Once Node.js is installed, install the React Native command-line tools by running
-the following from the command line:
-  * npm install –g react-native-cli
-* If you get a permission error, try again with sudo:
-  * sudo npm install -g react-native-cli
- 
+* Xcode, go to Mac App Store
+* Command Line Tools
+  * Open Xcode, then choose "Preferences..." from the Xcode menu.
+  * Go to the Locations panel and install the tools by selecting the most recent version in the Command Line Tools dropdown.
+* Installing an iOS Simulator in Xcode
+  * open Xcode > Preferences... and select the Components tab. 
+  * Select a simulator with the corresponding version of iOS you wish to use.
+* CocoaPods
+  * sudo gem install cocoapods
+* react-native-cli
+  * sudo npm install –g react-native-cli
+
  ## Testing the installation on iOS
 * react-native init MyProjectName
 * cd MyProjectName
